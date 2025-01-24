@@ -1,62 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <title>Portfoilio</title>
-</head>
-<body>
-    <header>
-        <div>
-            <a class="underline_Links" href="index.html">
-                <img src="Images/Branding/Logos/Linkedinpfimage.png" width="150"  alt="Logo"></a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="reset.css" rel="stylesheet">
+        <link href="sitewide.css" rel="stylesheet">
+        <link href="showcase.css" rel="stylesheet">
+        <link href="Product.css" rel="stylesheet">
+        <script src="toggle.js"></script>
+        <script src="https://kit.fontawesome.com/6c80baa468.js" crossorigin="anonymous"></script>
+        <title>Portfoilio</title>
+        
+    </head>
+    <body>
+        <header>
+           
+            <div class="navbar">
+            <div>
+                <a href="index.html">
+                    <img src="Images/Branding/Logos/Linkedinpfimage.png" width="150" id="logo" alt="Logo"></a>
         </div>
-        <h2>Terrence Collins</h2>
-        <nav>
-        <ul>
-            <li><a class="underline_Links" href="index.html"> Home </a></li>
-            <li><a class="underline_Links" href="aboutMe.html"> Resume </a></li>
-            <li>Showcase
-            <ul>
-        <li><a class="underline_Links" href="motion.html"> Motion </a></li>
-        <li><a class="underline_Links" href="branding.html"> Branding and Logos </a></li>
-        <li><a class="underline_Links" href="ads.html"> Advertising </a></li>
-        <li><a class="underline_Links" href="product.html"> Package/Product Design </a></li>
-        </ul>
-        <li><a class="underline_Links" href="colorTheory.html"> Color Theory </a>
-        <ul>
-            <li><a href="colorThemes.html">Color Themes</a></li>
-            <li><a href="colorTheoryArticle.html">AColor Theory Article</a></li>
-        </ul>
-    </li>
-        <li><a class="underline_Links" href="typography.html"> Typography </a>
-        <ul>
-            <li><a href="fontTypesArticle.html">Font Types</a></li>
-            <li><a href="typographyArticle.html">Typography Article</a></li>
-        </ul>
-    </li>
-            <li><a href="mailto:terrencec718@gmail.com"> Contact </a></li>
+           <nav>
+             <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="aboutMe.html">Resume</a></li>
+                <li class="contains"><a href="#">Showcase</a>
+                <ul>
+            <li><a href="motion.html">Motion</a></li>
+            <li><a href="branding.html">Branding and Logos</a></li>
+            <li><a href="ads.html"> Advertising </a></li>
+            <li><a href="product.html">Package/Product Design</a></li>
             </ul>
-        </nav>
-    </header><br>
+            <li class="contains"><a href="colorTheory.html">Color Theory</a>
+            <ul>
+                <li><a href="colorThemes.html">Color Themes</a></li>
+                <li><a href="colorTheoryArticle.html">Articles</a></li>
+            </ul>
+        </li>
+            <li class="contains"><a href="typography.html">Typography</a>
+            <ul>
+                <li><a href="fontTypesArticle.html">Font Types</a></li>
+                <li><a href="typographyArticle.html">Typography Article</a></li>
+            </ul>
+        </li>
+                <li><a href="mailto:terrencec718@gmail.com" class="split">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </div>
+        </header><br>
 
 <main>
-<h1> Welcome to my Experience</h1>
-<h2>Package and Product Design</h2>
-<div id="Deez">
-    <img src="Images/Packaging/Munchon-Deez/MunchOnDeez_Varietyblank.png" width="610" alt="Ad_2">
-<img src="Images/Packaging/Munchon-Deez/MunchOnDeez_CChip.png" width="300" alt="Chocolate-Chip">
-<img src="Images/Packaging/Munchon-Deez/MunchOnDeez_SShcake.png" width="300" alt="Straw-Shortcake">
-<img src="Images/Packaging/Munchon-Deez/MunchOnDeez_CarmApl.png" width="300" alt="Caramel-Apple">
-<img src="Images/Packaging/Munchon-Deez/MunchOnDeez_Ad_2.png" width="610" alt="Ad_2">
-<img src="Images/Packaging/Munchon-Deez/MunchOnDeez_Ad_1.png" width="610" alt="Ad_1">
-<img src="Images/Packaging/Munchon-Deez/MunchOnDeez_Pop.png" width="610" alt="MunchOnDeez_THC Cookies">
-<h4>Munch On-Deez</h4>
+<h1>Package and Product Design</h1>
+<div id="wrapper">
+
+<div id="variety">
+    <img src="Images/Packaging/Munchon-Deez/MunchOnDeez_Varietyblank.png" width="610" alt="varietyAd"></div>
+
+<div id="cChip">
+<img src="Images/Packaging/Munchon-Deez/MunchOnDeez_CChip.png" width="300" alt="Chocolate-Chip"></div>
+
+<div id="ssCake">
+<img src="Images/Packaging/Munchon-Deez/MunchOnDeez_SShcake.png" width="300" alt="Straw-Shortcake"></div>
+
+<div id="carmApp">
+<img src="Images/Packaging/Munchon-Deez/MunchOnDeez_CarmApl.png" width="300" alt="Caramel-Apple"></div>
+
+<div id="munchAd2">
+<img src="Images/Packaging/Munchon-Deez/MunchOnDeez_Ad_2.png" width="610" alt="Ad_2"></div>
+
+<div id="munchAd1">
+<img src="Images/Packaging/Munchon-Deez/MunchOnDeez_Ad_1.png" width="610" alt="Ad_1"></div>
+
+<div id="munPop">
+<img src="Images/Packaging/Munchon-Deez/MunchOnDeez_Pop.png" width="610" alt="MunchOnDeez_THC Cookies"></div>
+
+<div id="statement"><h4>Munch On-Deez</h4>
 <p> Conceptualized, designed and developed a line of premium quality THC-infused cookies -
     “Munch On-Deez”. Baked to merge gourmet flavors with high-quality cannabis strains. Each thoughtfully paired with specific THC strains to complement and enhance the taste profile.
     Marketing: Lifestyle brand that’s fun, approachable, and indulgent, appealing to both casual cannabis users and connoisseurs.
     </p>
+</div>
 </div>
   
 </main>

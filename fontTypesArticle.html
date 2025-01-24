@@ -1,126 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Font Type Article</title>
-</head>
-<body>
-    <header>
-        <div>
-            <a class="underline_Links" href="index.html">
-                <img src="Images/Branding/Logos/Linkedinpfimage.png" width="150"  alt="Logo"></a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="reset.css" rel="stylesheet">
+        <link href="sitewide.css" rel="stylesheet">
+        <link href="typography.css" rel="stylesheet">
+        <script src="toggle.js"></script>
+        <script src="https://kit.fontawesome.com/6c80baa468.js" crossorigin="anonymous"></script>
+        <title>Portfoilio</title>
+        
+    </head>
+    <body>
+        <header>
+           
+            <div class="navbar">
+            <div>
+                <a href="index.html">
+                    <img src="Images/Branding/Logos/Linkedinpfimage.png" width="150" id="logo" alt="Logo"></a>
         </div>
-        <h2>Terrence Collins</h2>
-        <nav>
-        <ul>
-            <li><a class="underline_Links" href="index.html"> Home </a></li>
-            <li><a class="underline_Links" href="aboutMe.html"> Resume </a></li>
-            <li>Showcase
-            <ul>
-        <li><a class="underline_Links" href="motion.html"> Motion </a></li>
-        <li><a class="underline_Links" href="branding.html"> Branding and Logos </a></li>
-        <li><a class="underline_Links" href="ads.html"> Advertising </a></li>
-        <li><a class="underline_Links" href="product.html"> Package/Product Design </a></li>
-        </ul>
-        <li><a class="underline_Links" href="colorTheory.html"> Color Theory </a>
-        <ul>
-            <li><a href="colorThemes.html">Color Themes</a></li>
-            <li><a href="colorTheoryArticle.html">Articles</a></li>
-        </ul>
-    </li>
-        <li><a class="underline_Links" href="typography.html"> Typography </a>
-        <ul>
-            <li><a href="fontTypesArticle.html">Font Types</a></li>
-            <li><a href="typographyArticle.html">Typography Article</a></li>
-        </ul>
-    </li>
-            <li><a href="mailto:terrencec718@gmail.com"> Contact </a></li>
+           <nav>
+             <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="aboutMe.html">Resume</a></li>
+                <li class="contains"><a href="#">Showcase</a>
+                <ul>
+            <li><a href="motion.html">Motion</a></li>
+            <li><a href="branding.html">Branding and Logos</a></li>
+            <li><a href="ads.html"> Advertising </a></li>
+            <li><a href="product.html">Package/Product Design</a></li>
             </ul>
-        </nav>
-    </header><br>
+            <li class="contains"><a href="colorTheory.html">Color Theory</a>
+            <ul>
+                <li><a href="colorThemes.html">Color Themes</a></li>
+                <li><a href="colorTheoryArticle.html">Articles</a></li>
+            </ul>
+        </li>
+            <li class="contains"><a href="typography.html">Typography</a>
+            <ul>
+                <li><a href="fontTypesArticle.html">Font Types</a></li>
+                <li><a href="typographyArticle.html">Typography Article</a></li>
+            </ul>
+        </li>
+                <li><a href="mailto:terrencec718@gmail.com" class="split">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </div>
+        </header><br>
 
     <main>
-        <h1>Understanding Different Types of Fonts</h1>
-        <p>Typography plays a vital role in design, influencing how we perceive and interact with text. Fonts come in various styles, each suited for specific uses. 
-            Here, we’ll explore the primary font categories in more detail, some popular examples, and where you can download them.</p>
-            <table>
-                <thead>
-                
-                 </thead>
-                 <tbody>
-                     <tr>
-                        <td><img src="Images/ColorTheory/SerifFonts.png" width="300" alt="Serif Font">
-                            <td>
+        <div id="typesofFonts">
+            <h1>Understanding Different Types of Fonts</h1>
+            <div id="explained">
+            <p>Typography plays a vital role in design, influencing how we perceive and interact with text. Fonts come in various styles, each suited for specific uses. 
+                Here, we’ll explore the primary font categories in more detail, some popular examples, and where you can download them.</p>
+            </div>
+            </div>
+        <div id="container">
+             <div id="serifImg"> <img src="Images/ColorTheory/SerifFonts.png" width="300" alt="Serif Font"></div>
+              <div id="serif">         
                          <h2>Serif</h2>
-                            <p>Serif fonts are characterized by small lines or "serifs" attached to the ends of letters. They evoke a sense of tradition, elegance, and formality, making them ideal for print materials such as books and newspapers. 
+                            <p>Serif fonts are characterized by small lines or "serifs" attached to the ends of letters. 
+                                They evoke a sense of tradition, elegance, and formality, making them ideal for print materials such as books and newspapers. 
                             These fonts are particularly effective for long-form text as they guide the reader’s eyes smoothly across the page.</p>
-                            
-                            <strong><em>Examples</em></strong>
+                        </div>
+                           <div id="serifExample">
                             <p><a href="https://www.dafontfree.co/times-new-roman-font/">Times New Roman:</a> A classic and widely used serif font.</p>
                            <p><a href="https://www.dafontfree.io/georgia-font/">Georgia:</a> Designed for readability on screens.</p>
-                           <p><a href="https://www.dafontfree.io/garamond-font-free/">Garamond:</a> Known for its timeless elegance.</p></td>
-                     
-                        <td><img src="Images/ColorTheory/sansserif.png" width="300" alt="Sans serif">
-                         <td>
+                           <p><a href="https://www.dafontfree.io/garamond-font-free/">Garamond:</a> Known for its timeless elegance.</p>
+                        </div>
+
+                        <div id="sanSarifImg"><img src="Images/ColorTheory/sansserif.png" width="300" alt="Sans serif">
+                        </div>
+                         <div id="sanSarif">
                             <h2>San Serif</h2>
-                            <p>Sans-serif fonts lack the decorative serifs, offering a clean and modern appearance. These fonts are commonly used in digital formats and are favored for minimalist designs and readability on screens. 
+                            <p>Sans-serif fonts lack the decorative serifs, offering a clean and modern appearance. 
+                                These fonts are commonly used in digital formats and are favored for minimalist designs and readability on screens. 
                                 Sans-serif fonts convey simplicity and directness.</p>
-                            
-                            <strong><em>Examples</em></strong>
+                         </div>
+                         <div id="sanSarifExample">
+                           
                             <p><a href="https://www.dafontfree.io/arial-font-free/">Arial:</a> A versatile and widely used sans-serif font.</p>
                            <p><a href="https://www.dafontfree.io/helvetica-font-free/">Helvetica:</a> Renowned for its neutrality and versatility.</p>
-                           <p><a href="https://www.dafontfree.io/impact-font/">Impact:</a> Known for its strong and bold presence. Popular for web and mobile interfaces.</p></td>
+                           <p><a href="https://www.dafontfree.io/impact-font/">Impact:</a> Known for its strong and bold presence. Popular for web and mobile interfaces.</p>
+                         </div>
                      
-                        <td><img src="Images/ColorTheory/Script.png" width="300" alt="Script">
-                         <td><h2>Script</h2>
-                            <p>Script fonts mimic handwriting and calligraphy, often used for invitations, logos, and elegant designs. They can be formal, exuding sophistication, or casual, offering a more relaxed and friendly vibe.</p>
-                            
-                            <strong><em>Examples</em></strong>
+                        <div id="scriptImg" ><img src="Images/ColorTheory/Script.png" width="300" alt="Script">
+                        </div>
+                         <div id="script"><h2>Script</h2>
+                            <p>Script fonts mimic handwriting and calligraphy, often used for invitations, logos, and elegant designs. 
+                                They can be formal, exuding sophistication, or casual, offering a more relaxed and friendly vibe.</p>
+                         </div>
+                         <div id="scriptImgExample">
                             <p><a href="https://www.1001fonts.com/pacifico-font.html">Pacifico:</a> A casual and playful script font.</p>
                            <p><a href="https://www.1001fonts.com/great-vibes-font.html">Great Vibes:</a> Elegant and flowing.</p>
-                           <p><a href="https://www.dafontfree.io/regular-brush-script-font/">Brush Script:</a> A retro script font.</p></td>
-                     
-                     </tr>
-                     <tr>
-                        <td><img src="Images/ColorTheory/display.png" width="300" alt="Display">
-                         <td><h2>Display</h2>
-                            <p>Display fonts are designed for attention-grabbing headings and are less suited for body text. These fonts are often bold, decorative, or quirky, making them perfect for branding, posters, and titles.</p>
-                            
-                            <strong><em>Examples</em></strong>
+                           <p><a href="https://www.dafontfree.io/regular-brush-script-font/">Brush Script:</a> A retro script font.</p>
+                         </div>
+                    
+
+                     <div id="displayImg">
+                        <img src="Images/ColorTheory/display.png" width="300" alt="Display">
+                     </div>
+                        <div id="display"><h2>Display</h2>
+                            <p>Display fonts are designed for attention-grabbing headings and are less suited for body text. 
+                                These fonts are often bold, decorative, or quirky, making them perfect for branding, posters, and titles.</p>
+                        </div>
+                       <div id="displayImgExample">
                             <p><a href="https://www.1001fonts.com/lobster-font.html">Lobster:</a> A stylish and bold font.</p>
                            <p><a href="https://www.1001fonts.com/bangers-font.html">Bangers:</a> Perfect for comic-style designs.</p>
-                           <p><a href="https://www.dafontfree.io/impact-font/">Impact:</a> Known for its strong and bold presence. Popular for web and mobile interfaces.</p></td>
+                           <p><a href="https://www.dafontfree.io/impact-font/">Impact:</a> Known for its strong and bold presence. Popular for web and mobile interfaces.</p>
+                        </div>
                      
-                        <td><img src="Images/ColorTheory/monospace.png" width="300" alt="Monospace">
-                         <td><h2>Monospace</h2>
-                            <p>Monospace fonts have characters that occupy equal horizontal space. They are commonly used in programming, technical documents, and coding interfaces. These fonts are praised for their clarity and alignment in structured layouts.</p>
-                            
-                            <strong><em>Examples</em></strong>
+                        <div id="monospaceImg"><img src="Images/ColorTheory/monospace.png" width="300" alt="Monospace">
+                        </div>
+                         <div id="monospace"><h2>Monospace</h2>
+                            <p>Monospace fonts have characters that occupy equal horizontal space. They are commonly used in programming, technical documents, and coding interfaces. 
+                                These fonts are praised for their clarity and alignment in structured layouts.</p>
+                         </div>
+                       <div id="monospaceImgExample">
                             <p><a href="https://www.dafontfree.io/courier-new-font/">Courier New:</a> A classic monospace font.</p>
                            <p><a href="https://www.1001fonts.com/consola-mono-font.html"> Consolas:</a> Ideal for coding and terminal applications.</p>
-                           <p><a href="https://www.1001fonts.com/space-mono-font.html">Space Mono:</a> A font where all em-spaces have the same size. </p></td>
+                           <p><a href="https://www.1001fonts.com/space-mono-font.html">Space Mono:</a> A font where all em-spaces have the same size. </p>
+                         </div>
                      
-                        <td><img src="Images/ColorTheory/handwritten.png" width="300" alt="Handwritting"></td>
-                         <td><h2>Handwritten</h2>
-                            <p>Handwritten fonts simulate personal handwriting and add a human touch to designs. They’re great for informal and creative projects, conveying warmth and individuality.</p>
-                            
-                            <strong><em>Examples</em></strong>
+                        <div id="handwrittenImg"><img src="Images/ColorTheory/handwritten.png" width="300" alt="Handwritting">
+                        </div>
+                         <div id="handwritten"><h2>Handwritten</h2>
+                            <p>Handwritten fonts simulate personal handwriting and add a human touch to designs. 
+                                They’re great for informal and creative projects, conveying warmth and individuality.</p>
+                         </div>
+                         <div id="handwrittenImgExample">
                             <p><a href="https://www.1001fonts.com/search.html?search=Caveat">Caveat:</a>Casual and approachable.</p>
                            <p><a href="https://www.1001fonts.com/search.html?search=dancing+script"> Dancing Script:</a> Playful and energetic.</p>
                            <p><a href="https://www.1001fonts.com/shadows-into-light-font.html">Shadows Into Light:</a> Light and friendly.</p>
-                     </td>
-                     </tr>
-                 </tbody>
-         
-                 <tfoot>
-                      </tfoot>
-                 </table> 
-
+                     </div>
+                  
+                </div>
     </main>
-<hr>
+
 <footer>
-    <a href="fontTypesArticle.html">Back to Top </a>
+    <a href="typography.html">Back to Top </a>
     <a href="mailto:terrencec718@gmail.com"> Email</a>
     <a href="www.linkedin.com/in/terrencecollinscreativesolutions"> LinkedIn</a>
 </footer>

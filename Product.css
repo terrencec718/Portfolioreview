@@ -1,0 +1,161 @@
+body {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-size: 55% cover; 
+    background-image: url(Images/Branding/Logos/Linkedinpfimage.png);
+  }
+  
+  @font-face {
+  font-family: 'bowlby_one';
+  src: url(Fonts/bowlby-one/bowlbyone-regular-webfont.woff2) format('woff2'),
+       url(Fonts/bowlby-one/bowlbyone-regular-webfont.woff) format('woff'),
+       url(Fonts/bowlby-one/bowlbyone-regular-webfont.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+  
+  
+  
+  h1 {
+    text-align: center;
+    margin: 40px;
+    font-size:xx-large;
+    font-family: bowlby_one;
+    color: rgb(92, 2, 1);
+  }
+  
+  .adv {
+    background-color: rgb(231, 228, 228);
+    border-width: 100%;
+    height: 70px;
+    line-height: 1.6;
+    box-shadow:.5rem .5rem 1rem .25rem gray;
+    margin: 0px 0px 40px 0px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 14pt;
+  }
+  .adv p {
+    color: rgb(92, 2, 1);
+  }
+  
+  #wrapper {
+    display: grid;
+    grid-template-columns: 257px 257px 257px;
+    grid-template-rows: 481px 156px 375px 322px 357px;
+    gap: 5px;
+    background-color: rgb(92, 2, 1);
+    grid-auto-rows: 20%;
+    min-width: 500px;
+    padding: -0.5rem;
+    width: 43%;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    margin: 0.5rem auto;
+    grid-column-gap: 3px;
+    position:relative;
+    justify-content: center;
+  }
+  #wrapper > div {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px 0;
+    /* font-size: 30px; */
+    padding: 0.5rem;
+    border: 1px solid rgb(242, 171, 5);
+  }
+  
+  
+  
+  #cChip{
+    padding: 0.5rem;
+    border: 1px solid rgb(39, 237, 17);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    height: auto;
+    grid-row: 3;
+    height: fit-content;
+  }
+  
+  #ssCake {
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    grid-row: 3;
+    /* grid-column: 3; */
+    height: fit-content;
+  }
+  
+  
+  #carmApp {
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    /* grid-column: 4; */
+    grid-row: 3;
+    height: fit-content;
+  }
+  
+  #munchAd2 {
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    grid-row: 4;
+    /* grid-column: 4; */
+    height: fit-content;
+  }
+  #munchAd1 {
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    grid-column: span 2;
+    grid-row: 4;
+    height: fit-content;
+  }
+  
+  #munPop {
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    grid-column: 1/3;
+    height: fit-content;
+  }
+  .adv {
+    text-align: center;
+  }
+  #statement {
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    grid-column: 1/4;
+    grid-row: 2;
+    height: fit-content;
+    font-size: medium;
+  }
+  
+  #variety {
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    height: fit-content;
+    /* grid-row: 1; */
+    grid-column: 1/4;
+  }

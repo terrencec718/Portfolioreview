@@ -1,0 +1,202 @@
+@font-face {
+  font-family: 'bowlby_one';
+  src: url(Fonts/bowlby-one/bowlbyone-regular-webfont.woff2) format('woff2'),
+       url(Fonts/bowlby-one/bowlbyone-regular-webfont.woff) format('woff'),
+       url(Fonts/bowlby-one/bowlbyone-regular-webfont.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+
+html {
+    font-size: 16px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: aliceblue;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-image: url(Images/Branding/Logos/Linkedinpfimage.png);
+    background-repeat: no-repeat;
+    background-size: 55% cover;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+    font-size: x-large;
+    margin: 0px 0px 0px 100px;
+}
+
+h2 {
+    font-size: medium;
+    color:rgb(176, 173, 173);
+}
+
+
+#name {
+    color: crimson;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    
+}
+p {
+    color:rgb(0,0,0);
+    
+}
+
+
+
+main {
+    margin: 40px 0px 0px 100px;
+    width: 100%;
+    line-height: 1.6;
+}
+
+
+footer {
+    background-color: crimson;
+    padding: 1rem;
+    margin: 150px 0px 0px 0px;
+    float: left;
+    width: 100%;
+}
+footer a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 0px 0px 80px;
+    color:white;
+    padding: 1rem;
+    text-align: center;
+   
+}
+
+.indent-length {
+    text-indent: 1em;
+}
+
+
+  
+  nav {
+  background: crimson;
+  width: 100%;
+  margin: -90px 0px 0px 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  nav::after {
+     content: "";
+     display: block;
+     clear: both; 
+  }
+  
+  nav ul {
+   list-style: none;
+   display:inline;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+      
+  }
+  
+  nav li {
+      float: left;
+ }
+  
+  
+  nav a {
+      display: block;
+      padding: 1rem 3rem;
+      text-decoration: none;
+      margin: 0px 0px 0px 0px;
+  }
+ 
+
+  li:hover {
+      background: rgb(242, 171, 5);
+  }
+  footer a:hover {
+   color:black ;
+  }
+  
+  a, 
+  a:visited {
+    text-decoration: none;
+    color: white;
+    
+  }
+  
+  a:hover {
+    color:black;
+    
+  }
+  
+  a:active {
+    color: gray;
+  }
+ 
+  #menu-icon {
+    display: none;
+  }
+
+  li.contains ul {
+      display:none;
+  }
+  li.contains:hover ul {
+     background:crimson;
+     display:block;
+     position: absolute;
+  }
+  li.contains li {
+      float: none;
+      font-size:medium;
+  }
+  a.split {
+    float: right;
+    background-color: rgb(175, 172, 172);
+    color: white;
+  }
+
+  @media (max-width: 1080px) {
+    nav #menu-icon {
+      background: crimson;
+      color: white;
+      cursor: pointer;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li.contains ul {
+      display: none;
+    }
+    a.split {
+        float: left;
+        background-color: rgb(175, 172, 172);
+        color: white;
+      }
+  }
+  @media (max-width: 380px) {
+    footer a:hover {
+        background: rgb(242, 171, 5);
+        padding: 1rem 3rem;
+      }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}

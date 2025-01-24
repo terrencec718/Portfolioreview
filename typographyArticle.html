@@ -1,60 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Typography Article</title>
-</head>
-<body>
-    <header>
-        <div>
-            <a class="underline_Links" href="index.html">
-                <img src="Images/Branding/Logos/Linkedinpfimage.png" width="150"  alt="Logo"></a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="reset.css" rel="stylesheet">
+        <link href="sitewide.css" rel="stylesheet">
+        <link href="typography.css" rel="stylesheet">
+        <script src="toggle.js"></script>
+        <script src="https://kit.fontawesome.com/6c80baa468.js" crossorigin="anonymous"></script>
+        <title>Portfoilio</title>
+        
+    </head>
+    <body>
+        <header>
+           
+            <div class="navbar">
+            <div>
+                <a href="index.html">
+                    <img src="Images/Branding/Logos/Linkedinpfimage.png" width="150" id="logo" alt="Logo"></a>
         </div>
-        <h2>Terrence Collins</h2>
-        <nav>
-        <ul>
-            <li><a class="underline_Links" href="index.html"> Home </a></li>
-            <li><a class="underline_Links" href="aboutMe.html"> Resume </a></li>
-            <li>Showcase
-            <ul>
-        <li><a class="underline_Links" href="motion.html"> Motion </a></li>
-        <li><a class="underline_Links" href="branding.html"> Branding and Logos </a></li>
-        <li><a class="underline_Links" href="ads.html"> Advertising </a></li>
-        <li><a class="underline_Links" href="product.html"> Package/Product Design </a></li>
-        </ul>
-        <li><a class="underline_Links" href="colorTheory.html"> Color Theory </a>
-        <ul>
-            <li><a href="colorThemes.html">Color Themes</a></li>
-            <li><a href="colorTheoryArticle.html">Color Theory Article</a></li>
-        </ul>
-    </li>
-        <li><a class="underline_Links" href="typography.html"> Typography </a>
-        <ul>
-            <li><a href="fontTypesArticle.html">Font Types</a></li>
-            <li><a href="typographyArticle.html">Typography Article</a></li>
-        </ul>
-    </li>
-            <li><a href="mailto:terrencec718@gmail.com"> Contact </a></li>
+           <nav>
+             <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="aboutMe.html">Resume</a></li>
+                <li class="contains"><a href="#">Showcase</a>
+                <ul>
+            <li><a href="motion.html">Motion</a></li>
+            <li><a href="branding.html">Branding and Logos</a></li>
+            <li><a href="ads.html"> Advertising </a></li>
+            <li><a href="product.html">Package/Product Design</a></li>
             </ul>
-        </nav>
-    </header><br>
+            <li class="contains"><a href="colorTheory.html">Color Theory</a>
+            <ul>
+                <li><a href="colorThemes.html">Color Themes</a></li>
+                <li><a href="colorTheoryArticle.html">Articles</a></li>
+            </ul>
+        </li>
+            <li class="contains"><a href="typography.html">Typography</a>
+            <ul>
+                <li><a href="fontTypesArticle.html">Font Types</a></li>
+                <li><a href="typographyArticle.html">Typography Article</a></li>
+            </ul>
+        </li>
+                <li><a href="mailto:terrencec718@gmail.com" class="split">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </div>
+        </header>
     
     <main>
-        <table>
-            <thead>
-                <tr>
-                    <td><h1>Enhancing User Experience Through Typography</h1></td>
-                </tr>   
-            </thead>
-            <tbody>
-        <tr>
-            <td><img src="Images/ColorTheory/TypographyTrends.png" width="800" alt="Abstract"></td>
-        </tr>
         
-        <tr>
-            <td> 
-                <h2>Which Font Works Best for Your Design?</h2>
+            <div id="trends"><img src="Images/ColorTheory/TypographyTrends.png" width="800" alt="Abstract"></div>
+       <div id="experience"> <h1>Enhancing User Experience Through Typography</h1></div>
+
+       <div id="best"> <h2>Which Font Works Best for Your Design?</h2>
                 <p>The choice of font styles is pivotal in crafting impactful designs, as it shapes perceptions, evokes emotions, and communicates messages effectively. 
                     While every font has its strengths, understanding their nuances and proper applications is essential for achieving your design objectives.</p>
                 <p>Choosing the right font depends on your project's tone, audience, and medium. Whether you need a timeless serif for a formal document or a playful script for a party invitation, understanding these categories will help you make informed design decisions.</p>
@@ -63,13 +63,15 @@
                 <p>During my research on what defines good or bad typography in a layout, I explored several websites showcasing diverse approaches. 
                     A few stood out for their exceptional use of font choices, employing various sizes and styles to make typography the focal point of the design. 
                     These sites effectively utilized typography to guide navigation throughout their pages. They demonstrated a masterful balance of contrast and harmony, combining fonts in ways that were both unconventional and visually cohesive. 
-                    The interplay of these elements created designs that not only complemented the overall aesthetic but also deeply engaged the viewer.</p>
+                    The interplay of these elements created designs that not only complemented the overall aesthetic but also deeply engaged the viewer.
+                </p>
                 <p>Read my detailed reviews below to discover how effective typography can transform web design into a true art form..</p>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="https://mew.xyz/" target="_blank"><img src="Images/ColorTheory/mew.jpg" width="400" alt="screenshoot"></a>
-            <h2>A Review of "In Space We Trust"</h2>
+            </div>
+
+            <section id="mewContainer">
+               <div id="mew"><a href="https://mew.xyz/" target="_blank"><img src="Images/ColorTheory/mew.jpg" width="450" alt="screenshoot"></a></div>
+            
+               <div id="review"> <h2>A Review of "MEW website"</h2>
                 <p>The <a href="https://mew.xyz/">MEW</a> is a perfect example of how bold typography and strategic use of <a href="colorTheory.html">color</a> can enhance the user experience. 
                     The site features a vibrant red background paired with black typography throughout, creating a striking visual contrast. 
                     This combination results in a clean, playful, and intuitive navigation system that immediately captures attention and guides users effortlessly through the content...<em><a href="colorThemes.html">more on Color Schemes.</a></em>
@@ -78,142 +80,135 @@
                     Some fonts are even used as masks, adding a dynamic visual layer to the design. These transitions are not only captivating but also maintain readability, ensuring the site remains engaging without overwhelming the viewer.
                     
                     The interplay of contrasting font sizes and thoughtful design choices kept me intrigued, encouraging deeper exploration and anticipation of what might come next. 
-                    This meticulous application of <a href="typography.html">typography</a>—balancing bold contrasts with visual comfort—elevates the site to a standout example of animated web design that is both functional and aesthetically stunning.</p>
-                    
-                </td>
-                </tr>
-                <tr>
-                    <td>
-                        <h3>Pros</h3>
-                       <strong>Striking Visual Appeal:</strong>
-                        <ul>
-                        <li>The bold use of color (bright red and black) creates a strong contrast that immediately grabs attention.</li>
-                        <li>Typography-driven design feels fresh and unique compared to image-heavy websites.</li>
-                    </ul>
-                    <strong>Typography as a Visual Element:</strong>
-                        <ul>
-                        <li>Using fonts in various sizes and styles as masks and graphic elements adds creativity and originality.</li>
-                        <li>The typography-focused layout makes the design stand out and creates a cohesive visual narrative.</li>
-                    </ul>
-                    <strong>Enhanced User Experience:</strong>
-                        <ul>
-                        <li>Clean and clear navigation ensures usability, even with its bold aesthetic choices.</li>
-                        <li>Visual transitions are appealing yet easy on the eyes, maintaining readability and reducing strain.</li>
-                    </ul>
-                    <strong>Balancing Aesthetics and Functionality:</strong>
-                        <ul>
-                        <li>Clean and clear navigation ensures usability, even with its bold aesthetic choices.</li>
-                    </ul>
-                    </td>
-                     </tr>
-                     <tr>
+                    This meticulous application of <a href="typography.html">typography</a> balancing bold contrasts with visual comfort—elevates the site to a standout example of animated web design that is both functional and aesthetically stunning.</p>
+               </div>
+               <div id="results">
+                <table>
+                    <tr>
+                        <td>
+                            <h3>Pros</h3>
+                            <ol start="1">
+                        
+                                <li><h3>Striking Visual Appeal:</h3></li>
+                                <li><p>The bold use of color (bright red and black) creates a strong contrast that immediately grabs attention.</p></li>
+                                    <li><p>Typography-driven design feels fresh and unique compared to image-heavy websites.</p></li>
+                                    
+                                    <li><h3>Typography as a Visual Element:</h3></li>
+                                    <li><p>Using fonts in various sizes and styles as masks and graphic elements adds creativity and originality.</p></li>
+                                            <li><p>The typography-focused layout makes the design stand out and creates a cohesive visual narrative.</p></li>
+                                            
+                                            <li><h3>Enhanced User Experience:</h3></li>        
+                                                <li><p>Clean and clear navigation ensures usability, even with its bold aesthetic choices.</p></li>
+                                                <li><p>Visual transitions are appealing yet easy on the eyes, maintaining readability and reducing strain.</p></li>
+
+                                                <li><h3>Balancing Aesthetics and Functionality:</h3></li>
+                                                <li><p>Clean and clear navigation ensures usability, even with its bold aesthetic choices.</p></li>
+
+                            </ol>
+                        </td>
                         <td>
                             <h3>Cons</h3>
-                            <strong>Potential Overwhelmveruse of Dark Background:</strong>
-                            <ul>
-                            <li>Bright colors and bold fonts might overwhelm users who prefer subtler designs, especially for extended viewing.</li>
-                        </ul>
-                        <strong>Limited Universal Appeal:</strong>
-                            <ul>
-                            <li>A typography-driven approach may not resonate with all audiences or industries, limiting its applicability for more traditional or formal content.</li>
-                        </ul>
-                        <strong>Dependence on Typography:</strong>
-                            <ul>
-                            <li>With minimal imagery, the design heavily relies on its typography's success; if it doesn't appeal to users, the entire aesthetic could fall flat</li>
-                        </ul>
-                        <strong>Device Compatibility:</strong>
-                            <ul>
-                            <li>The dynamic use of fonts and transitions might not render seamlessly on all devices or browsers, potentially leading to inconsistencies.</li>
-                        </ul>
-                        <strong>Learning Curve for Navigation:</strong>
-                            <ul>
-                            <li>While the navigation is clear, unconventional typography placements might initially confuse users unfamiliar with this approach.</li>
-                        </ul>
-                        </td>
-                         </tr>
-                         <tr>
-                            <td>
-                                <strong>Conclusion</strong>
+                            <ol start="6">
+                                <li><h3>Potential Overwhelmveruse of Dark Background:</h3></li>
+                            <li><p>Bright colors and bold fonts might overwhelm users who prefer subtler designs, especially for extended viewing.</p></li>
+                            
+                            <li><h3>Limited Universal Appeal:</h3></li>
+                                 <li><p>A typography-driven approach may not resonate with all audiences or industries, limiting its applicability for more traditional or formal content.</p></li>
+
+                                 <li><h3>Dependence on Typography:</h3></li>   
+                                 <li><p>With minimal imagery, the design heavily relies on its typography's success; if it doesn't appeal to users, the entire aesthetic could fall flat.</p></li>
+
+                                 <li><h3>Device Compatibility:</h3></li>   
+                                 <li><p>The dynamic use of fonts and transitions might not render seamlessly on all devices or browsers, potentially leading to inconsistencies.</p></li>
+
+                                 <li><h3>Learning Curve for Navigation:</h3></li>  
+                                 <li><p>While the navigation is clear, unconventional typography placements might initially confuse users unfamiliar with this approach.</p></li>
+                                
+                        </ol></td>
+                    </tr>
+                    </table> 
+                </div>
+       
+                       <div id="conclusion">
+                        <h3>Conclusion</h3>
                                 <p>This design approach is bold, engaging, and innovative, but it needs careful attention to accessibility and audience preferences to ensure it appeals to a broad user base.</p>
-                            </td>
-                         </tr>
+                            </div>
+                        </section>
         
-                         <tr>
-                            <td><a href="https://artefact-ai-film-festival.com/" target="_blank"><img src="Images/ColorTheory/Artefact.png" width="400" alt="screenshot"></a>
+                            <section id="festContainer">
+                        <div id="festival"> <a href="https://artefact-ai-film-festival.com/" target="_blank"><img src="Images/ColorTheory/Artefact.png" width="450" alt="screenshot"></a>
+                        </div>
+
+                        <div id="review_2">
                             <h2>A Review of Assiko.com"</h2>
                                 <p>
                                     The <a href="https://artefact-ai-film-festival.com/">"Artefacts"</a> website is a masterclass in minimalist animation and effective design. 
                                     Utilizing the full screen, it employs a clean, simple layout with a subtle gradient background that complements its well-thought-out structure.
                                     
                                     The page opens with a stunning display of large <a href="typography.html">Serif</a> fonts used as the logo, setting a refined and consistent tone for the entire site. 
-                                    This thoughtful typography choice extends throughout, with various<a href="fontTypesArticle.html">font styles</a> and sizes creating a clear hierarchy for blocks of text. 
+                                    This thoughtful typography choice extends throughout, with various<a href="fontTypesArticle.html"> font styles</a> and sizes creating a clear hierarchy for blocks of text. 
                                     The bold headings and statements guide users effortlessly through the content, making navigation intuitive and engaging.
                                     
                                     What sets "Artefacts" apart is its restraint in using images, focusing instead on highly readable and well-organized text. 
                                     The result is a visually appealing experience that feels uncluttered and easy on the eyes. 
                                     The site’s balance of simplicity and sophistication demonstrates how thoughtful design can elevate both usability and aesthetic appeal.</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h3>Pros</h3>
-                                   <strong>Typography-Driven Design:</strong>
-                                    <ul>
-                                    <li>The large serif fonts as the logo immediately grab attention and set the tone.</li>
-                                    <li>Consistent use of font styles and sizes establishes a clear visual hierarchy, improving readability and navigation.</li>
-                                </ul>
-                                <strong>User-Friendly Navigation:</strong>
-                                    <ul>
-                                    <li>Bold headings and well-structured text blocks make navigating the site intuitive.</li>
-                                    <li>The absence of overwhelming imagery ensures the focus remains on the content.</li>
-                                </ul>
-                                <strong>Readable and Accessible Content:</strong>
-                                    <ul>
-                                    <li>Legible copy contributes to an effortless reading experience, reducing eye strain and promoting engagement.</li>
-                                </ul>
-                                <strong>Sophistication and Consistency:</strong>
-                                    <ul>
-                                    <li>The design reflects a cohesive aesthetic, aligning<a href="typography.html">typography</a> and layout seamlessly.</li>
-                                </ul>
-                                </td>
-                                 </tr>
-                                 <tr>
-                                    <td>
-                                        <h3>Cons</h3>
-                                        <strong>Typography Overload:</strong>
-                                        <ul>
-                                        <li>Relying heavily on typography might not appeal to users who prefer more dynamic or multimedia-driven designs.</li>
-                                    </ul>
-                                    <strong>Limited Appeal to Broader Audiences:</strong>
-                                        <ul>
-                                        <li>The minimalist and typography-heavy approach may not resonate with all demographics, particularly those seeking vibrant, image-rich experiences.</li>
-                                    </ul>
-                                    <strong>Accessibility Challenges:</strong>
-                                        <ul>
-                                        <li>The gradient background, depending on its contrast with the text, could present readability issues for users with visual impairments.</li>
-                                    </ul>
-                                    <strong>Screen-Dependent Experience:</strong>
-                                        <ul>
-                                        <li>Full-screen designs can vary greatly across devices and resolutions, potentially leading to inconsistencies in user experience.</li>
-                                    </ul>
-                                    </td>
-                                     </tr>
-                         <tr>
+                                </div>
+
+                                
+                                <div id="results2">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <h3>Pros</h3>
+                                                <ol start="1">
+                                       
+                                <li><h3>Typography-Driven Design:</h3></li>
+                                    <li><p>The large serif fonts as the logo immediately grab attention and set the tone.</p></li>
+                                    <li><p>Consistent use of font styles and sizes establishes a clear visual hierarchy, improving readability and navigation.</p></li>
+                                
+                                    <li><h3>User-Friendly Navigation:</h3></li>
+                                    <li><p>Bold headings and well-structured text blocks make navigating the site intuitive.</p></li>
+                                    <li><p>The absence of overwhelming imagery ensures the focus remains on the content.</p></li>
+                                
+                                    <li><h3>Readable and Accessible Content:</h3></li>
+                                    <li><p>Legible copy contributes to an effortless reading experience, reducing eye strain and promoting engagement.</p></li>
+                            
+                                    <li><h3>Sophistication and Consistency:</h3></li>
+                                    <li><p>The design reflects a cohesive aesthetic, aligning<a href="typography.html"> typography</a> and layout seamlessly.</p></li>
+                               </ol>
+                            </td>
                             <td>
-                                <strong>Conclusion</strong>
+                                        <h3>Cons</h3>
+                                        <ol start="6">
+                                            <li><h3>Typography Overload:</h3></li>
+                                        <li><p>Relying heavily on typography might not appeal to users who prefer more dynamic or multimedia-driven designs.</li>
+                                   
+                                            <li><h3>Limited Appeal to Broader Audiences:</h3></li>
+                                        <li><p>The minimalist and typography-heavy approach may not resonate with all demographics, particularly those seeking vibrant, image-rich experiences.</p></li>
+                                  
+                                        <li><h3>Accessibility Challenges:</h3></li>
+                                    <li><p>The gradient background, depending on its contrast with the text, could present readability issues for users with visual impairments.</p></li>
+                                    
+                                    <li><h3>Screen-Dependent Experience:</h3></li>
+                                        <li><p>Full-screen designs can vary greatly across devices and resolutions, potentially leading to inconsistencies in user experience.</p></li>
+                                    </ol>
+                                </td>
+                                </tr>
+                                </table> 
+                                </div>
+
+                                <div id="conclusion_2">
+                                <h3>Conclusion</h3>
                                 <p>Overall, <a href="https://artefact-ai-film-festival.com/">"Artefacts"</a> excels in delivering a clean and sophisticated user experience through thoughtful typography and layout. 
                                     However, its minimalistic nature and reliance on typography may not cater to all user preferences or needs. 
                                     Balancing simplicity with additional interactive or visual elements could further enhance its appeal.</p>
-                            </td>
-                         </tr>
-                         
-            </tbody>
-            <tfoot></tfoot>
-        </table>
+                                </div>
+                            </section>
+                        
     </main>
-<hr>
+
 <footer>
-    <a href="typographyArticle.html">Back to Top </a>
+    <a href="typography.html">Back to Top </a>
     <a href="mailto:terrencec718@gmail.com"> Email</a>
     <a href="www.linkedin.com/in/terrencecollinscreativesolutions"> LinkedIn</a>
 </footer>

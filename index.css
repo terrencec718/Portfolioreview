@@ -1,0 +1,196 @@
+#wrapper {
+  display: grid;
+  grid-template-columns: minmax(50px, 1fr) minmax(150px, 1fr);
+  grid-template-rows: 70px repeat(3 2fr);
+  gap: 5px;
+  background-color: rgb(92, 2, 1);
+  grid-auto-rows: 60px repeat(3, 1fr);
+  min-width: 500px;
+  padding: -0.5rem;
+  width: 72%;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  margin: 0.5rem auto;
+  grid-column-gap: 3px;
+  /* height: auto; */
+  justify-content: center;
+  align-items: normal;
+}
+#wrapper > div {
+  background-color: #f1f1f1;
+  align-items: center;
+  padding: 20px 0;
+  /* font-size: 30px; */
+  padding: 0.5rem;
+  border: 1px solid rgb(242, 171, 5);
+}
+
+#wrapper img {
+  /* height: 100%; */
+  /* width: 100%; */
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#profile {
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  line-height: 1.6;
+  text-align: left;
+  grid-row: 3;
+  grid-column: 1;
+  overflow: hidden;
+}
+
+#mission {
+  padding: 0.5rem;
+  border: 1px solid rgb(39, 237, 17);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  line-height: 1.6;
+  grid-column: 1 / 3;
+  grid-row: 2;
+  font-size: 15pt;
+  align-content: center;
+  text-align: center;
+}
+
+#skillset {
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  line-height: 1.6;
+  font-size: xx-large;
+  /* text-shadow: .1rem .1rem .25rem rgb(184, 184, 184); */
+  grid-column: 2;
+  grid-row: 3;
+  /* text-align: justify; */
+  max-height: fit-content;
+  max-width: fit-content;
+  overflow: hidden;
+  height: fit-content;
+}
+#skillset p > a {
+  color: crimson;
+}
+
+#softskills {
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  /* margin: 0.5rem; */
+  /* grid-row: 5; */
+}
+
+#creative {
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  line-height: 1.6;
+  text-align: left;
+  grid-column: 1 / 3;
+  grid-row: 4;
+  height: fit-content;
+  max-height: fit-content;
+    max-width: fit-content;
+    overflow: hidden;
+}
+
+.adv {
+  text-align: center;
+}
+
+#tCollins {
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  line-height: 1.6;
+  text-align: center;
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+#software {
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  grid-row: 5;
+  height: fit-content;
+  text-align: center;
+}
+
+div#softskills {
+  grid-row: 5;
+  grid-column: 2;
+  height: fit-content;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+#name {
+  color: crimson;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bolder; 
+}
+
+#adobe {
+  width: 100%;
+  height: auto;
+  /* height: 84%; */
+  max-height: fit-content;
+  max-width: fit-content;
+  overflow: hidden;
+  width: 70%;
+  /* min-width: fit-content; */
+  min-height: fit-content;
+  mix-blend-mode: darken;
+}
+#microsoft {
+  width: 100%;
+  /* height: auto; */
+  height: 84%;
+  max-height: fit-content;
+  max-width: fit-content;
+  overflow: hidden;
+  width: 70%;
+  /* min-width: fit-content; */
+  min-height: fit-content;
+  mix-blend-mode: darken;
+}
+#fcpro {
+  /* width: 100%; */
+  /* height: auto; */
+  height: 84%;
+  max-height: fit-content;
+  /* max-width: fit-content; */
+  overflow: hidden;
+  width: 10%;
+  /* min-width: fit-content; */
+  min-height: fit-content;
+}
+#figma {
+  width: 100%;
+  height: auto;
+  height: 84%;
+  max-height: fit-content;
+  max-width: fit-content;
+  overflow: hidden;
+  width: 11%;
+  /* min-width: fit-content; */
+  min-height: fit-content;
+}
